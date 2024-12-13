@@ -1,0 +1,55 @@
+/* Ensure the body takes full height and has no margin */
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+/* Main container is centered */
+.main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Sub container styling with buttons */
+.sub {
+    height: 60px;
+    width: 900px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+/* Button styling */
+.buttons {
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    margin-bottom: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: cursive;
+    box-shadow: 3px 3px 5px black;
+}
+
+.heading{
+font-family: cursive;
+text-shadow: 2px 2px 4px white;
+font-size: 20px;
+}
+
+.buttons:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition:  0.3s ease;
+}
